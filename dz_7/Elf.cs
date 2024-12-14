@@ -32,6 +32,7 @@ namespace dz_7
         }
     }
 
+
     public class ElvenKnight : ElvenFighter
     {
         public ElvenKnight(string name, int health, int karma, int magic, string weapon)
@@ -47,6 +48,7 @@ namespace dz_7
             Console.WriteLine($"{Name} кричит: 'За честь и славу!'");
         }
     }
+
 
     public class ElvenScout : ElvenFighter
     {
@@ -64,6 +66,7 @@ namespace dz_7
         }
     }
 
+
     public class TempleKnight : ElvenKnight
     {
         public TempleKnight(string name, int health, int karma, int magic, string weapon)
@@ -79,6 +82,7 @@ namespace dz_7
             Console.WriteLine($"{Name} кричит: 'За честь и славу!'");
         }
     }
+
 
     public class SwordSinger : ElvenKnight
     {
@@ -96,6 +100,7 @@ namespace dz_7
         }
     }
 
+
     public class PlainsWalker : ElvenScout
     {
         public PlainsWalker(string name, int health, int karma, int magic, string weapon)
@@ -111,6 +116,7 @@ namespace dz_7
             Console.WriteLine($"{Name} произносит заклинание: 'Arcanum Explosio!'");
         }
     }
+
 
     public class SilverRanger : ElvenScout
     {
@@ -128,6 +134,7 @@ namespace dz_7
         }
     }
 
+
     public class GuasTemplar : TempleKnight
     {
         public GuasTemplar(string name, int health, int karma, int magic, string weapon)
@@ -143,6 +150,7 @@ namespace dz_7
             Console.WriteLine($"{Name} произносит заклинание: 'Arcanum Explosio!'");
         }
     }
+
 
     public class SwordMuse : SwordSinger
     {
@@ -160,6 +168,7 @@ namespace dz_7
         }
     }
 
+
     public class WindRider : PlainsWalker
     {
         public WindRider(string name, int health, int karma, int magic, string weapon)
@@ -175,6 +184,7 @@ namespace dz_7
             Console.WriteLine($"{Name} говорит: 'Моя стрела не промахнется!'");
         }
     }
+
 
     public class MoonlightSentimel : SilverRanger
     {
